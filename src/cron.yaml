@@ -1,0 +1,13 @@
+cron:
+- description: "Morning train times"
+  url: /morning_alerts
+  schedule: every mon,tue,wed,thu,fri 08:30
+  timezone: Europe/London
+- description: "Evening weather"
+  url: /evening_weather
+  schedule: every mon,tue,wed,thu,fri 17:50
+  timezone: Europe/London
+- description: "Evening train times"
+  url: /evening_train_alerts
+  schedule: every mon,tue,wed,thu,fri 18:20
+  timezone: Europe/London

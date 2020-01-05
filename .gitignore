@@ -1,0 +1,9 @@
+travelenv/
+data/GoogleAPI.txt
+data/SampGoogle.json
+debug/*.ipynb
+src/private.py
+
+__pycache__/
+.DS_Store
+.vscode
