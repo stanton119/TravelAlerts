@@ -29,3 +29,20 @@ To change cron jobs:
 ```
 gcloud app deploy cron.yaml
 ```
+
+# Example result
+```
+SAL to CLJ - 09:10, Exp:On time, Length:0
+SAL to CLJ - 09:16, Exp:On time, Length:0
+SAL to CLJ - 10:00, Exp:On time, Length:0
+SAL to CLJ - 10:10, Exp:On time, Length:0
+
+London Rd/A30: 24 mins
+Weather at 2020-01-01 09:00:00+00:00:
+No high winds
+No bad weather: clear sky
+
+Weather at 2020-01-01 18:00:00+00:00:
+No high winds
+No bad weather: few clouds
+```
